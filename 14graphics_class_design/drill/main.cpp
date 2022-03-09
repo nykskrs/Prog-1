@@ -18,22 +18,22 @@ public:
 
 int main()
 {
-    // // 1.
+    // 1.
     // B1 b;
     // b.vf();
     // b.f();
 
-    // // 2.
+    // 2.
     // D1 d;
     // d.vf();
     // d.f(); // inaccessible
 
-    // // 3.
+    // 3.
     // B1 &ref = d; // conversion to inaccessible base class is not allowed
     // ref.vf();
     // ref.f();
 
-    // // 4.
+    // 4.
 
     return 0;
 }
