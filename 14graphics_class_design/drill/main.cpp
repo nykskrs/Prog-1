@@ -55,33 +55,27 @@ int main()
     B1 b;
     b.vf();
     b.f();
-
     // 2.
     std::cout << "2" << std::endl;
     D1 d;
     d.vf();
     d.f();
-
     // 3.
     std::cout << "3" << std::endl;
     B1 &ref = d;
     ref.vf();
     ref.f();
-
     // 4.
     std::cout << "4" << std::endl;
     B1 b1;
     b1.vf();
     b1.f();
-
     D1 d1;
     d1.vf();
     d1.f();
-
     B1 &ref1 = d1;
     ref1.vf();
     ref1.f();
-
     // 5
     // object of abstract class is not allowed
     */
