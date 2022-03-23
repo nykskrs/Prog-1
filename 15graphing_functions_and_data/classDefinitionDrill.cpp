@@ -1,5 +1,10 @@
 #include <iostream>
 
+struct Person
+{
+	Person() {}
+};
+
 int main()
 {
 
