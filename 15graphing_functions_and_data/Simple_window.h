@@ -2,18 +2,18 @@
 
 using namespace Graph_lib;
 
-struct Simple_window : Graph_lib::Window
-{
-    Simple_window(Point xy, int w, int h, const string &title);
+struct Simple_window : Graph_lib::Window {
+	Simple_window(Point xy, int w, int h, const string& title );
 
-    bool wait_for_button();
+	bool wait_for_button();
 
-    Button next_button;
+	Button next_button;
 
 private:
-    bool button_pushed;
+	bool button_pushed;
+	
+	static void cb_next(Address, Address addr);
 
-    static void cb_next(Address, Address addr);
+	void next();
 
-    void next();
 };
