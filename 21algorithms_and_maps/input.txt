@@ -1,0 +1,10 @@
+book 22 132.55
+spoon 35 42.99
+ball 17 77.65
+phone 94 996.12
+bread 75 123.65
+wine 46 65.22
+lighter 76 23.52
+chair 83 76.48
+watch 34 865.34
+ring 64 63.84
