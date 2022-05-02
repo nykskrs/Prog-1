@@ -2,6 +2,7 @@
 #include <vector>
 #include <fstream>
 #include <numeric>
+#include <algorithm>
 
 struct LessThan
 {
